@@ -25,7 +25,7 @@ public class Main {
 
         String statusKehadiran = "";
         double potonganGaji = 0;
-        if(jamMasuk <= 8){
+        if(jamMasuk <= 800){
             statusKehadiran = "Tepat Waktu";
         }else if (jamMasuk >= 801 && jamMasuk <= 815){
             statusKehadiran = "Terlambat Ringan";
