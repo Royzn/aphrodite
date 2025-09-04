@@ -45,6 +45,7 @@ public class Main {
         String status = "";
 
         if(lateDay > 30){
+            penaltyVal = penaltyPerDay * lateDay;
             status = "Suspensi";
         } else if(lateDay > 0){
             penaltyVal = penaltyPerDay * lateDay;
