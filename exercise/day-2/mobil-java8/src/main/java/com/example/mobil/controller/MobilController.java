@@ -1,12 +1,13 @@
-package com.example.mobil;
+package com.example.mobil.controller;
 
+import com.example.mobil.repository.MobilRepo;
+import com.example.mobil.entity.Mobil;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.*;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/mobil")
